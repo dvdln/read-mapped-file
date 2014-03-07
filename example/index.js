@@ -8,6 +8,7 @@ readMappedFile(
     cwd: 'example'
   },
   function(err, data) {
+    console.log(err);
     console.log(data);
   }
 );
