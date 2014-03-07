@@ -16,7 +16,7 @@ module.exports = require('./lib/read-mapped-file');
  */
 
 /**
- * @typedef {Object} FileConfig
+ * @typedef {Object} Source
  * @property {?string} src
  * @property {?string} cwd
  * @property {?string} mapSrc
@@ -24,13 +24,4 @@ module.exports = require('./lib/read-mapped-file');
  * @property {?(Object.<string, string>|string)} fs
  * @property {?string} code
  * @property {?string} map
- */
-
-/**
- * @typedef {Object} Source
- * @property {string} code
- * @property {string} map
- * @property {string} src
- * @property {string} cwd
- * @property {string} mapSrc
  */
