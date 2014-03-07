@@ -47,3 +47,21 @@ exports.testMapOnly = function(test) {
   test.deepEqual(data, expect);
   test.done();
 };
+
+exports.testEmpty = function(test) {
+  var expect = require('./files/empty-expect');
+  var data = readMappedFile();
+
+  test.deepEqual(data, expect);
+  test.done();
+};
+
+exports.testMissing = function(test) {
+  var expect = require('./files/missing-file-expect');
+  var data = readMappedFile({
+    src: 'test/files/missing-file.js'
+  });
+
+  test.deepEqual(data, expect);
+  test.done();
+};

@@ -1,0 +1,6 @@
+{
+  "src": "test/files/missing-file.js",
+  "code": "",
+  "map": {},
+  "mapSrc": "test/files/missing-file.js.map"
+}
