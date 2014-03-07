@@ -1,0 +1,9 @@
+{
+  "mapSrc": "test/files/normal.js.map",
+  "src": "",
+  "code": "",
+  "map": {
+    "version": "3",
+    "file": "normal.js"
+  }
+}

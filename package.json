@@ -17,13 +17,15 @@
     "readfile",
     "source",
     "map",
-    "sourcemap",
-    "source-map"
+    "sourcemap"
   ],
   "author": "David Lane",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dvdln/read-mapped-file/issues"
   },
-  "homepage": "https://github.com/dvdln/read-mapped-file"
+  "homepage": "https://github.com/dvdln/read-mapped-file",
+  "devDependencies": {
+    "nodeunit": "^0.8.6"
+  }
 }

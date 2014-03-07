@@ -1,0 +1,9 @@
+{
+  "src": "test/files/normal.js",
+  "code": "console.log('example');\n// sourceMappingURL=normal.js.map\n",
+  "map": {
+    "version": "3",
+    "file": "normal.js"
+  },
+  "mapSrc": "test/files/normal.js.map"
+}

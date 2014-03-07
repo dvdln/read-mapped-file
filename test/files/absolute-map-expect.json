@@ -1,0 +1,9 @@
+{
+  "src": "test/files/absolute-map.js",
+  "code": "console.log('example');\n// sourceMappingURL=/test/files/absolute.js.map\n",
+  "map": {
+    "version": "3",
+    "file": "absolute-map.js"
+  },
+  "mapSrc": "test/files/absolute-map.js.map"
+}
