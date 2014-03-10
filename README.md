@@ -1,6 +1,9 @@
 # read-mapped-file
 > Read a file and its associated source map.
 
+[![npm Version](https://badge.fury.io/js/read-mapped-file.png)](http://badge.fury.io/js/read-mapped-file)
+[![Build Status](https://travis-ci.org/dvdln/read-mapped-file.png?branch=master)](https://travis-ci.org/dvdln/read-mapped-file)
+
 ## Usage
 ```js
 var readMappedFile = require('read-mapped-file');
