@@ -24,9 +24,9 @@ readMappedFile(options, [callback]);
     - **cwd** `String` Current working directory.
     - **mapSrc** `String` Map file path.
     - **mapDir** `String` Map file root directory.
-    - **fs** `Object` Options to pass to `fs.readFile`.
+    - **fs** `Object|String` Options to pass to `fs.readFile`.
     - **code** `String` Source code. If set, `src` is ignored.
-    - **map** `String` Source map. If set, `mapSrc` is ignored.
+    - **map** `JSON` Source map. If set, `mapSrc` is ignored.
 - **callback** `Function` Errback `(err, data)`
 
 If `callback` is passed then the file read will be asynchronous. Callbacks are
