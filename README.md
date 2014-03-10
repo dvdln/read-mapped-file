@@ -37,7 +37,7 @@ passed `(err, data)`, where `data` is an object literal:
 ```js
 {
   code: String,
-  map: String,
+  map: Object,
   cwd: String,
   src: String,
   mapSrc: String
