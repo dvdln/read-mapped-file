@@ -1,6 +1,6 @@
 {
   "name": "read-mapped-file",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Read a file and its associated source map.",
   "main": "index.js",
   "scripts": {
